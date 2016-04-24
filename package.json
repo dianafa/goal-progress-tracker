@@ -1,0 +1,14 @@
+{
+  "name": "goal-progress-tracker",
+  "version": "1.0.0",
+  "description": "This extension will help me with tracking my quaterly and annual OKR's",
+  "main": "popup.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "dianafa",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  }
+}

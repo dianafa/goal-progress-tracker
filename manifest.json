@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Diana OKR's tracking",
+	"description": "This extension will help me with tracking my quaterly and annual OKR's",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"http://public.diana.wikia-dev.com/*" 
+	],
+	"sandbox": {
+		"pages": ["sandbox.html"]
+	}
+}

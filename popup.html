@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <script src="popup.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id="template"></div>
+    <button id="add">add</button>
+    <script id="entry-template" type="text/x-handlebars-template">
+    {{#data}}
+      <h3>{{name}}
+        {{#if count}}{{count}}<button class='plus'>+</button>{{/if}}
+      </h3>
+      {{#elements}}
+      <div>
+        <strong>{{name}}</strong>
+        {{count}}<button class='plus'>+</button>
+      </div>
+      {{/elements}}
+    {{/data}}
+    </script>
+  </body>
+</html>
+
